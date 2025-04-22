@@ -19,7 +19,7 @@
     },
     "AUTO_READ_STATUS": {
       "description": "Your contact status will be read automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
       "AUDIO_REPLY":
@@ -35,12 +35,12 @@
     },
     "AUTO_REACT_STATUS": {
       "description": "Your contact status will be react automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_BIO": {
       "description": "This automatically update your bio status.Always make sure you insert your OWNER_NAME since it uses that to update your bio name status",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
       "AUTO_SAVE_CONTACTS":
@@ -61,7 +61,7 @@
     },
     "AUTO_STATUS_TEXT": {
       "description": "type your genuine status message",
-      "value": "viewed ✅✅",
+      "value": "paraphernalia has seen ✅✅",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -71,17 +71,17 @@
     },
     "ANTI_CALL_TEXT": {
       "description": "Type your anticall message to always send when calls are declined.You can as well leave it blank",
-      "value": "My owner don't receive any call now because it's busy",
+      "value": "Im in class",
       "required": false
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "✧⁠LUCKY_MD✧",
+      "value": "paraphernalia",
       "required": false 
     },
     "PUBLIC_MODE": {
       "description": "Set 'yes' to make your bot public or 'no' to keep it private",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -96,17 +96,17 @@
     },
     "SESSION_ID": {
       "description": "Enter your session ID, the code you receive after scanning the QR code",
-      "value": "",
+      "value": "LUCKY-MD;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUU2K0ZyQ3Z0NHRKZjZnYk5rTVJjZWpkMVhmSVd4aEhGUTE4VTVybFJVbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNVlvQUNKcHA0cmpLaVc2OWxqeFJ6cFAveVNGRjFIN1MvcGpWY0RhUG1YRT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI4STdpREZPRzBqdGJjY084bEw4Y1ZDNDd3TnRaU3RHRzNHcG5Hem5oYjEwPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJaVTl6YnF5RkZDQXE0ZXMySGROTlg3cmhwbHE3TXpOeEVyT1lpaWpRWlZzPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjBDNFU1UzcvSFRGbDdPZG9mZDdCd0h6YlFLNnN4Q21yMnp4NmRMb3hBMG89In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InZJbTljNTZsTkJvM2pCZnFocUY4b3Nlb29rd0RLTEEvQTV2ajNPRTdrU3M9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTUVUYUtDMWFFSWIrZWZ3WE5zUTRmdnI2U2xMRXVmT0RtcFB1QzR3K1gxND0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ29NNjNGTHRSZ3lJYVhTdGUxWCt1YUtFaUpic25LMGcyb1JsVlNIWkhYRT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImZiNGNnZjZGNzMrRm5nYlhDazducW4xMjRZZUh3RXFyejliL05yek1GL2ZUYTAwZFdjM21FTjJ3YXYzeXdYV0xXVGIyT0l4VVRLZ1Ficnp1SGUxVkNBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6ODQsImFkdlNlY3JldEtleSI6IkNlVVNTM21LTVlBM05qdDVNd0RrS0FGQ0haVWhaU3U2WXU0U2phUHpZZm89IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IkNjWkdXTGR6UzRpTkQ2R1dpckdsZkEiLCJwaG9uZUlkIjoiODQzOTYyNjYtNDFiMC00MDgyLTk0NDktZmMzNmE0NTQyYzI2IiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImI0ZCsyV3MzVVlMK3dvRmF1cElsOHVRVVE1bz0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhZjF4MEc0NE9MdkFiT3R6bWdYcVBXWDZoR0k9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiQjlZR1pHNzgiLCJtZSI6eyJpZCI6IjIzNDgwODY3MjI3OTg6OUBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTS9oMjZBRkVQMkFvTUFHR0FJZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiN1RmRXNTVmtoRW91QTRQVmE2c0tvOS82U2JBVmFucHppYUgvWTl0VFNWVT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiemdST1FwVVdPTUVqNThoQ1NZV21qWmczZFE2c3YrOGF0bFVjUXdXd2pPaHc5UGVPVnFwL0p4K3JRQXJYUDd3dU92VG9VWVY3ek5nbjltNDZXS1VTQ2c9PSIsImRldmljZVNpZ25hdHVyZSI6IkZicjU0YlAxYVVtaFlvS2RpMUlyNVRjNXp3V09VWlFUc1p0Q3o1RFRmNFQ2aC9jVnRxYzBUQXNROTI1WXljVElmUHdZek1UeUw1ZUl2UURhS2RQY0JRPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjM0ODA4NjcyMjc5ODo5QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmUwM3hMRWxaSVJLTGdPRDFXdXJDcVBmK2ttd0ZXcDZjNG1oLzJQYlUwbFYifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3NDUzNTQ4OTF9",
       "required": true
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "FrediEzra",
+      "value": "Practicing man",
       "required": false
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/7irwqn.jpeg",
+      "value": "https://files.catbox.moe/z42tne.jpeg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -141,7 +141,7 @@
     },
     "ANTI_CALL": {
       "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
-      "value": "yes",
+      "value": "off",
       "required": false
     },
     "AUTO_BLOCK": {
